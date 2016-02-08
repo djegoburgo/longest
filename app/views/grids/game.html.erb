@@ -1,0 +1,13 @@
+
+<h2>"******** Welcome to the longest word-game !********"</h1>
+<h2>Here is your grid :</h2>
+<h3><%= @random_grid %></h3>
+<h2>********</h2>
+
+<h3>What's your best shot ?</h3>
+
+<form action="/score">
+  <label for="letter1">Letter ?</label>
+  <input type="text" id="question" name="submit" placeholder="what do you have in mind ?">
+  <input type="submit" value="Go on!">
+</form>
